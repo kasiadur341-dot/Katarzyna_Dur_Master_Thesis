@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# But keep this .gitignore itself
+!.gitignore
+
+# Allow directories so we can keep code in subfolders
+!*/
+
+# Keep only R code files
+!*.R
+!*.Rmd
+!**/*.R
+!**/*.Rmd
